@@ -1,10 +1,3 @@
-export const metadata = {
-  title: "Terms & Conditions",
-  alternates: {
-    canonical: "https://www.nonfollowers.com/terms",
-  },
-};
-
 export default function Page() {
   return (
     <div className="mx-auto max-w-screen-md px-5 py-8 lg:py-16">

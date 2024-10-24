@@ -5,62 +5,6 @@ import { roboto } from "@/config/fonts";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
-export const metadata = {
-  alternates: {
-    canonical: "https://www.nonfollowers.com",
-  },
-  applicationName: "Nonfollowers",
-  title: {
-    default: "Safest way to find your Instagram nonfollowers | Nonfollowers",
-    template: "%s | Nonfollowers",
-  },
-  description:
-    "Nonfollowers is the safest way to find your Instagram unfollowers without getting banned or restricted by Instagram while keeping your account safe.",
-  keywords: [
-    "Instagram",
-    "nonfollowers",
-    "unfollowers",
-    "nonfollowers",
-    "non-followers",
-    "none followers",
-    "find unfollowers",
-    "instagram unfollowers",
-  ],
-  robots: {
-    index: true,
-    follow: true,
-  },
-  openGraph: {
-    siteName: "Nonfollowers",
-    type: "website",
-    locale: "en",
-    url: "https://www.nonfollowers.com",
-  },
-};
-
-const jsonLd = {
-  "@context": "https://schema.org",
-  "@type": "WebSite",
-  name: "Nonfollowers",
-  url: "https://www.nonfollowers.com/",
-  mainEntityOfPage: {
-    "@type": "WebPage",
-    "@id": "https://www.nonfollowers.com",
-  },
-  headline: "Safest way to find your Instagram nonfollowers | Nonfollowers",
-  image: "https://www.nonfollowers.com/logo_color.png",
-  description:
-    "Nonfollowers is the safest way to find your Instagram unfollowers without getting banned or restricted by Instagram while keeping your account safe.",
-  publisher: {
-    "@type": "Organization",
-    name: "Nonfollowers",
-    logo: {
-      "@type": "ImageObject",
-      url: "https://www.nonfollowers.com/logo_color.png",
-    },
-  },
-};
-
 export default function RootLayout({ children }) {
   return (
     <html lang="en" suppressHydrationWarning>

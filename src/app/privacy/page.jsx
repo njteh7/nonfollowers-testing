@@ -1,12 +1,5 @@
 import Link from "next/link";
 
-export const metadata = {
-  title: "Privacy Policy",
-  alternates: {
-    canonical: "https://www.nonfollowers.com/privacy",
-  },
-};
-
 export default function Page() {
   return (
     <div className="mx-auto max-w-screen-md px-5 py-8 lg:py-16">
